@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <form class="inputform" name="contact" method="POST" data-netlify="true">
+        <ul>
+            <li>
+                <label for="naam">Naam:</label>
+            </li>
+            <li>
+                <input name="naam" id="naam" type="text">
+            </li>
+            <li>
+                <label for="email">E-mail:</label>
+            </li>
+            <li>
+                <input name="email" id="email" type="email">
+            </li>
+            <li>
+                <label for="telefoon">Telefoon:</label>
+            </li>
+            <li>
+                <input name="telefoon" id="telefoon" type="tel">
+            </li>
+            <li>
+                <label for="leeftijd">Leeftijd: </label>
+            </li>
+            <li>
+                <input name="leeftijd" id="leeftijd" type="number">
+            </li>
+            <li>
+                <label for="gebdatum">Geboorte datum:</label>
+            </li>
+            <li>
+                <input name="gebdatum" id="geddatum" type="date">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                Wat is uw Geslacht?
+            </li>
+            <li>
+                <label for="geslacht">
+                    <input type="radio" name="geslacht" id="man" value="Man"> Man
+                </label>
+            </li>
+            <li>
+                <label for="geslacht">
+                    <input type="radio" name="geslacht" id="vrouw" value="Vrouw"> Vrouw
+                </label>
+            </li>
+            <li>
+                <label for="geslacht">
+                    <input type="radio" name="geslacht" id="neutraal" value="Neutraal"> Neutraal
+                </label>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                Wat is uw favoriete keuken?
+            </li>
+            <li>
+                <label for="keuken1">
+                    <input type="checkbox" name="keuken1" id="frans" value="Frans"> Frans
+                </label>
+            </li>
+            <li>
+                <label for="keuken2">
+                    <input type="checkbox" name="keuken2" id="italiaans" value="Italiaans"> Italiaans
+                </label>
+            </li>
+            <li>
+                <label for="keuken3">
+                    <input type="checkbox" name="keuken3" id="spaans" value="Spaans"> Spaans
+                </label>
+            </li>
+            <li>
+                <label for="keuken4">
+                    <input type="checkbox" name="keuken4" id="arabisch" value="Arabisch"> Arabisch
+                </label>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                Wat is uw favoriete kleur short?
+            </li>
+            <li>
+                <input name="kleur" id="kleur" type="color">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                Vul hier uw Bio in.
+            </li>
+            <li>
+                <textarea name="Bio" id="bio" rows="20" cols="50">type hier</textarea>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                Upload uw laatste recept.
+            </li>
+            <li>
+                <input name="recept" type="file">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                URL naar uw site.
+            </li>
+            <li>
+                <input name="website" type="URL">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <input type="reset">
+            </li>
+            <li>
+                <input type="submit">
+            </li>
+        </ul>
+
+
+    </form>
+
+
+</body>
+
+</html>

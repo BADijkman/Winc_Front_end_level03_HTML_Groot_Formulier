@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(89, 87, 85);
+    font-size: 18px;
+    color: azure;
+    line-height: 1.2rem;
+}
+
+.homebutton{
+    background-color: coral;
+    padding:10x;
+}
+.inputform{
+    width: 50%;
+    border: 2px solid black;
+}
+.inputform li, .inputform textarea{
+    list-style-type: none;
+    margin-bottom:5px;
+}
+
+
+/* @media(min-width: 1024px){
+    body{
+        background-color: rgb(89, 87, 80);
+        color:rgb(240, 238, 227);
+        font-size: 16px;
+        line-height: 1.1rem ;
+       
+    }
+
+} */
+
+
